@@ -1,0 +1,87 @@
+@media (prefers-color-scheme: light){
+    body{
+        background-color: #FFF;
+    }
+    header{
+        background-image: url(../img/halo-infinite-cover.jpeg);
+    }
+    nav {
+        background-color: rgba(255, 255, 255, .5);
+    }
+    nav ul li a{
+        color: #000;
+    }
+    nav ul li .link::before{
+        background-color: #000;
+    }
+    nav .mobile .header{
+        background-color: #FFF;
+    }
+    nav .mobile .header a{
+        color: #000;
+    }
+    nav .mobile .header #btn-menu{
+        color: #000;
+    }
+    nav .mobile .links{
+        background-color: #FFF;
+    }
+    nav .mobile .links a{
+        color: #000;
+    }
+    nav .mobile .links a:hover{
+        color: #FFF;
+        background-color: #000;
+    }
+    #banner{
+        color: #000;
+        background-color: rgba(255, 255, 255,.85);
+    }
+    h2::before{
+        background-color: yellowgreen;
+    }
+    .green-btn{
+        background-color: yellowgreen;
+        color: #000;
+    }
+    .green-btn:hover{
+        background-color: greenyellow;
+        color: #000;
+    }
+    .green-link{
+        color: yellowgreen;
+    }
+    .green-link::before{
+        background-color: yellowgreen;
+    }
+    h3{
+        color: #000;
+    }
+    #videos{
+        color: #000;
+    }
+    @media screen and(max-width: 1525px) {
+        .info{
+            background-color: rgba(255, 255, 255, .75);
+            color: #000;
+        }
+    }
+    #get-the-game{
+        color: #000;
+    }
+    #get-the-game h2{
+        color: #000;
+    }
+    footer{
+        background-image: url(../img/master-chief.jpg);
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    body{
+        background-color: #000;
+    }
+    header{
+        background-image: url(../img/halo-infinite-cover-darkmode.jpg);
+    }
+}
